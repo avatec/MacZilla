@@ -42,7 +42,7 @@ struct MacZillaApp: App {
             CommandMenu("Panele") {
                 Button("Przełącz panel") { state.active = state.active == .left ? .right : .left }
                     .keyboardShortcut("\t", modifiers: .option)
-                Button("Odśwież") { Task { await state.activePanel.reload() } }
+                Button("Odśwież") { Task { await state.activePanel.refresh() } }
                     .keyboardShortcut("r", modifiers: .command)
                 Button("Katalog nadrzędny") { Task { await state.activePanel.goUp() } }
                     .keyboardShortcut(.upArrow, modifiers: .command)

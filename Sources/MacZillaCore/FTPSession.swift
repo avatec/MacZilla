@@ -67,7 +67,13 @@ actor FTPSession {
     }
 
     func quit() {
-        _ = try? command("QUIT")
+        // QUIT nie czeka na odpowiedź: zamykanie martwej sesji nie może
+        // blokować ponownego łączenia przez timeout gniazda.
+        if let control { try? control.send(Data("QUIT\r\n".utf8)) }
+        close()
+    }
+
+    func close() {
         control?.close()
         control = nil
     }

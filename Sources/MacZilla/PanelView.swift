@@ -40,6 +40,8 @@ struct PanelView: View {
             Button { Task { await panel.goUp() } } label: { Image(systemName: "arrow.up") }
                 .help("Katalog nadrzędny")
             PathField(panel: panel)
+            Button { Task { await panel.refresh() } } label: { Image(systemName: "arrow.clockwise") }
+                .help("Odśwież / połącz ponownie")
             HStack(spacing: 2) {
                 Button { showConnect = true } label: { Image(systemName: "server.rack") }
                     .help("Menedżer serwerów")
@@ -129,7 +131,7 @@ struct PanelView: View {
             }
             Divider()
             Button("Nowy folder…") { app.showNewFolder = true }
-            Button("Odśwież") { Task { await panel.reload() } }
+            Button("Odśwież") { Task { await panel.refresh() } }
         } primaryAction: { ids in
             if let id = ids.first, let item = panel.tableItem(id: id) {
                 Task { await app.open(item, in: panel) }
@@ -181,6 +183,10 @@ struct PanelView: View {
                       systemImage: status == .connected ? "checkmark.circle.fill" : "exclamationmark.triangle.fill")
                     .foregroundStyle(status == .connected ? .green : .red)
                     .help(panel.connectionIssue ?? (status == .connected ? "Połączenie z serwerem jest aktywne" : "Nie można połączyć się z serwerem"))
+                if status == .disconnected, panel.provider.id.hasPrefix("ftp") {
+                    Button("Połącz ponownie") { Task { await panel.reconnectFTP() } }
+                        .buttonStyle(.borderless)
+                }
             }
         }
         .font(.caption)

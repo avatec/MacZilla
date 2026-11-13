@@ -8,6 +8,7 @@ public final class FTPProvider: FileProvider, @unchecked Sendable {
     private let lock = NSLock()
     private var control: FTPSession?
     private var uploadControl: FTPSession?
+    private let controlGate = FTPWriteGate()
     private let uploadGate = FTPWriteGate()
     private var _home = "/"
 
@@ -20,37 +21,81 @@ public final class FTPProvider: FileProvider, @unchecked Sendable {
         self.displayName = "\(config.host) (\(config.security == .none ? "FTP" : "FTPS"))"
     }
 
-    private func session() throws -> FTPSession {
-        try lock.withLock {
-            guard let c = control else { throw FileProviderError.notConnected }
-            return c
+    /// Zwraca aktywną sesję sterującą albo odtwarza ją po utracie połączenia.
+    private func session() async throws -> FTPSession {
+        await controlGate.acquire()
+        do {
+            if let current = lock.withLock({ control }) {
+                do {
+                    try await current.checkConnection()
+                    await controlGate.release()
+                    return current
+                } catch {
+                    await current.close()
+                    lock.withLock { if control === current { control = nil } }
+                }
+            }
+
+            let replacement = FTPSession(config: config)
+            try await replacement.open()
+            let home = await replacement.home
+            lock.withLock { control = replacement; _home = home }
+            await controlGate.release()
+            return replacement
+        } catch {
+            await controlGate.release()
+            throw error
         }
     }
 
     public func connect() async throws {
-        let s = FTPSession(config: config)
-        try await s.open()
-        let home = await s.home
-        lock.withLock { control = s; _home = home }
+        await controlGate.acquire()
+        do {
+            let s = FTPSession(config: config)
+            try await s.open()
+            let home = await s.home
+            let old = lock.withLock { () -> FTPSession? in
+                let old = control
+                control = s
+                _home = home
+                return old
+            }
+            if old !== s { await old?.quit() }
+            await controlGate.release()
+        } catch {
+            await controlGate.release()
+            throw error
+        }
     }
 
     public func disconnect() async {
+        await controlGate.acquire()
         let sessions = lock.withLock { () -> (FTPSession?, FTPSession?) in
             defer { control = nil; uploadControl = nil }
             return (control, uploadControl)
         }
         await sessions.0?.quit()
         if sessions.1 !== sessions.0 { await sessions.1?.quit() }
+        await controlGate.release()
     }
 
-    public func checkConnection() async throws { try await session().checkConnection() }
+    public func checkConnection() async throws { _ = try await session() }
 
     public func setPermissions(_ path: String, mode: UInt16) async throws {
         try await session().setPermissions(path, mode: mode)
     }
 
     public func list(_ path: String) async throws -> [FileItem] {
-        try await session().list(path)
+        let current = try await session()
+        do {
+            return try await current.list(path)
+        } catch {
+            // Jeżeli kanał zerwał się między NOOP a LIST, odtwórz połączenie
+            // i ponów tylko odczyt katalogu.
+            let replacement = try await session()
+            guard replacement !== current else { throw error }
+            return try await replacement.list(path)
+        }
     }
 
     public func stat(_ path: String) async throws -> FileItem {
@@ -90,7 +135,7 @@ public final class FTPProvider: FileProvider, @unchecked Sendable {
                     try await cached.checkConnection()
                     s = cached
                 } catch {
-                    await cached.quit()
+                    await cached.close()
                     lock.withLock { if uploadControl === cached { uploadControl = nil } }
                 }
             }
@@ -104,7 +149,7 @@ public final class FTPProvider: FileProvider, @unchecked Sendable {
             await uploadGate.release()
         } catch {
             if let s {
-                await s.quit()
+                await s.close()
                 lock.withLock { if uploadControl === s { uploadControl = nil } }
             }
             await uploadGate.release()

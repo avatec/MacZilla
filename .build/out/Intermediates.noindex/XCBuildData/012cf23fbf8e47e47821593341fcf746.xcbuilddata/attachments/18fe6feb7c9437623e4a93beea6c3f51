@@ -1,4 +1,0 @@
-module MacZillaCore {
-header "MacZillaCore-Swift.h"
-export *
-}

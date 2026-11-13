@@ -85,14 +85,61 @@ final class PanelModel {
     func reload() async {
         isLoading = true
         defer { isLoading = false }
+        let current = provider
         do {
-            items = try await provider.list(path)
+            items = try await current.list(path)
+            guard provider.id == current.id else { return }
             error = nil
+            if current.id != "local" {
+                remoteConnectionStatus = .connected
+                connectionIssue = nil
+            }
             selection = selection.filter { id in items.contains { $0.id == id } }
             updateWatcher()
         } catch {
+            guard provider.id == current.id else { return }
             items = []
             self.error = error.localizedDescription
+            if current.id != "local" {
+                do {
+                    try await current.checkConnection()
+                    remoteConnectionStatus = .connected
+                    connectionIssue = nil
+                } catch {
+                    remoteConnectionStatus = .disconnected
+                    connectionIssue = error.localizedDescription
+                }
+            }
+        }
+    }
+
+    func refresh() async {
+        if provider.id.hasPrefix("ftp"), remoteConnectionStatus == .disconnected {
+            await reconnectFTP()
+        } else {
+            await reload()
+        }
+    }
+
+    func reconnectFTP() async {
+        let current = provider
+        guard current.id.hasPrefix("ftp") else { await reload(); return }
+        isLoading = true
+        defer { isLoading = false }
+        do {
+            try await current.connect()
+            guard provider.id == current.id else { return }
+            remoteConnectionStatus = .connected
+            connectionIssue = nil
+            items = try await current.list(path)
+            error = nil
+            selection = selection.filter { id in items.contains { $0.id == id } }
+        } catch {
+            guard provider.id == current.id else { return }
+            items = []
+            error = error.localizedDescription
+            remoteConnectionStatus = .disconnected
+            connectionIssue = error.localizedDescription
         }
     }
 
