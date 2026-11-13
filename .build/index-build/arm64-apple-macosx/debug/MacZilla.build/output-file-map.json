@@ -1,0 +1,71 @@
+{
+  "": {
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/primary.swiftdeps"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/AppSettings.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/AppSettings.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/AppSettings.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/AppSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/AppSettings.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/AppSettings.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/ConflictSheet.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ConflictSheet.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ConflictSheet.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ConflictSheet~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ConflictSheet.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ConflictSheet.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/ContentView.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ContentView.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ContentView.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ContentView.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/DirectoryWatcher.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/DirectoryWatcher.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/DirectoryWatcher.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/DirectoryWatcher~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/DirectoryWatcher.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/DirectoryWatcher.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/MacZillaApp.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/MacZillaApp.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/MacZillaApp.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/MacZillaApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/MacZillaApp.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/MacZillaApp.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/Models.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Models.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Models.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Models.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Models.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/Notifier.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Notifier.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Notifier.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Notifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Notifier.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Notifier.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/PanelView.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/PanelView.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/PanelView.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/PanelView~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/PanelView.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/PanelView.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/SettingsView.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SettingsView.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SettingsView.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/SiteManagerSheet.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SiteManagerSheet.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SiteManagerSheet.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SiteManagerSheet~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SiteManagerSheet.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SiteManagerSheet.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZilla/TransfersView.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/TransfersView.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/TransfersView.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/TransfersView~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/TransfersView.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/TransfersView.dia"  }
+}

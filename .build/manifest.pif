@@ -1,0 +1,2881 @@
+[
+  {
+    "contents" : {
+      "guid" : "Workspace:/Users/avatec/MacZilla",
+      "name" : "MacZilla",
+      "path" : "/Users/avatec/MacZilla",
+      "projects" : [
+        "8b73f60fc6e5fcbab17118fda0c652461c95b3380a803949d6543c9d02455c74",
+        "9ad5f151a7803e597ca198066a9480e474da8bd8c8e3a73580bc5f370b36d932"
+      ]
+    },
+    "signature" : "d3cdb428c0dd4cb2279432087868e92eb9779cb89874f3c51a945dd39a9b69e2",
+    "type" : "workspace"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "CLANG_ENABLE_MODULES[__platform_filter=driverkit]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios-maccatalyst]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios;ios-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=macos]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=tvos;tvos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=watchos;watchos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=xros;xros-simulator]" : "YES",
+            "CODE_SIGNING_REQUIRED" : "NO",
+            "CODE_SIGN_IDENTITY" : "",
+            "COMPILER_WORKING_DIRECTORY" : "$(WORKSPACE_DIR)",
+            "COPY_PHASE_STRIP" : "NO",
+            "DEBUG_INFORMATION_FORMAT" : "dwarf",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=driverkit]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios-maccatalyst]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios;ios-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=macos]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=tvos;tvos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=watchos;watchos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=xros;xros-simulator]" : "@rpath",
+            "ENABLE_NS_ASSERTIONS" : "YES",
+            "ENABLE_TESTABILITY" : "YES",
+            "ENABLE_TESTING_SEARCH_PATHS" : "YES",
+            "ENTITLEMENTS_REQUIRED" : "NO",
+            "GCC_OPTIMIZATION_LEVEL" : "0",
+            "GCC_PREPROCESSOR_DEFINITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE",
+              "DEBUG=1"
+            ],
+            "INDEX_ENABLE_DATA_STORE" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "KEEP_PRIVATE_EXTERNS" : "NO",
+            "LIBTOOL_NO_WARNING_FOR_NO_SYMBOLS" : "YES",
+            "LINKER_DRIVER" : "auto",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "ONLY_ACTIVE_ARCH" : "YES",
+            "OTHER_CFLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "OTHER_LDRFLAGS" : [
+
+            ],
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SKIP_INSTALL" : "YES",
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=macos]" : [
+
+            ],
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ],
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE",
+              "DEBUG"
+            ],
+            "SWIFT_INSTALL_OBJC_HEADER" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "",
+            "SWIFT_OPTIMIZATION_LEVEL" : "-Onone",
+            "TARGETED_DEVICE_FAMILY" : "",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "USE_HEADERMAP" : "NO",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE:maczilla::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "CLANG_ENABLE_MODULES[__platform_filter=driverkit]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios-maccatalyst]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=ios;ios-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=macos]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=tvos;tvos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=watchos;watchos-simulator]" : "YES",
+            "CLANG_ENABLE_MODULES[__platform_filter=xros;xros-simulator]" : "YES",
+            "CODE_SIGNING_REQUIRED" : "NO",
+            "CODE_SIGN_IDENTITY" : "",
+            "COMPILER_WORKING_DIRECTORY" : "$(WORKSPACE_DIR)",
+            "COPY_PHASE_STRIP" : "YES",
+            "DEBUG_INFORMATION_FORMAT" : "dwarf-with-dsym",
+            "DEPLOYMENT_POSTPROCESSING" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=driverkit]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios-maccatalyst]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=ios;ios-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=macos]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=tvos;tvos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=watchos;watchos-simulator]" : "@rpath",
+            "DYLIB_INSTALL_NAME_BASE[__platform_filter=xros;xros-simulator]" : "@rpath",
+            "ENABLE_TESTING_SEARCH_PATHS" : "YES",
+            "ENTITLEMENTS_REQUIRED" : "NO",
+            "GCC_OPTIMIZATION_LEVEL" : "s",
+            "GCC_PREPROCESSOR_DEFINITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE"
+            ],
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "KEEP_PRIVATE_EXTERNS" : "NO",
+            "LIBTOOL_NO_WARNING_FOR_NO_SYMBOLS" : "YES",
+            "LINKER_DRIVER" : "auto",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_CFLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "OTHER_LDRFLAGS" : [
+
+            ],
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-DXcode"
+            ],
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SKIP_INSTALL" : "YES",
+            "SPECIALIZATION_SDK_OPTIONS[__platform_filter=macos]" : [
+
+            ],
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ],
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_PACKAGE"
+            ],
+            "SWIFT_INSTALL_OBJC_HEADER" : "NO",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "",
+            "SWIFT_OPTIMIZATION_LEVEL" : "-Owholemodule",
+            "TARGETED_DEVICE_FAMILY" : "",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "USE_HEADERMAP" : "NO",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE:maczilla::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "defaultConfigurationName" : "Release",
+      "groupTree" : {
+        "children" : [
+          {
+            "children" : [
+
+            ],
+            "guid" : "PACKAGE:maczilla::MAINGROUP::REF_0",
+            "name" : "AdditionalFiles",
+            "path" : "/",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+
+            ],
+            "guid" : "PACKAGE:maczilla::MAINGROUP::REF_1",
+            "name" : "Binaries",
+            "path" : "/",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_0",
+                "name" : "ConflictTests.swift",
+                "path" : "ConflictTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_1",
+                "name" : "CoreTests.swift",
+                "path" : "CoreTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_2",
+                "name" : "FTPSTests.swift",
+                "path" : "FTPSTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_3",
+                "name" : "FTPTests.swift",
+                "path" : "FTPTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_4",
+                "name" : "HostKeyTests.swift",
+                "path" : "HostKeyTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_5",
+                "name" : "QueueTests.swift",
+                "path" : "QueueTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_6",
+                "name" : "QuickSearchTests.swift",
+                "path" : "QuickSearchTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_7",
+                "name" : "RemoteEditorTests.swift",
+                "path" : "RemoteEditorTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_8",
+                "name" : "SFTPTests.swift",
+                "path" : "SFTPTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_9",
+                "name" : "SiteManagerTests.swift",
+                "path" : "SiteManagerTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_10",
+                "name" : "SiteTests.swift",
+                "path" : "SiteTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_11",
+                "name" : "WebDAVTests.swift",
+                "path" : "WebDAVTests.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:maczilla::MAINGROUP::REF_2",
+            "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests",
+            "path" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_0",
+                "name" : "AppSettings.swift",
+                "path" : "AppSettings.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_1",
+                "name" : "ConflictSheet.swift",
+                "path" : "ConflictSheet.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_2",
+                "name" : "ContentView.swift",
+                "path" : "ContentView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_3",
+                "name" : "DirectoryWatcher.swift",
+                "path" : "DirectoryWatcher.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_4",
+                "name" : "MacZillaApp.swift",
+                "path" : "MacZillaApp.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_5",
+                "name" : "Models.swift",
+                "path" : "Models.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_6",
+                "name" : "Notifier.swift",
+                "path" : "Notifier.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_7",
+                "name" : "PanelView.swift",
+                "path" : "PanelView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_8",
+                "name" : "SettingsView.swift",
+                "path" : "SettingsView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_9",
+                "name" : "SiteManagerSheet.swift",
+                "path" : "SiteManagerSheet.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_10",
+                "name" : "TransfersView.swift",
+                "path" : "TransfersView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:maczilla::MAINGROUP::REF_3",
+            "name" : "/Users/avatec/MacZilla/Sources/MacZilla",
+            "path" : "/Users/avatec/MacZilla/Sources/MacZilla",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_0",
+                "name" : "AppSettings.swift",
+                "path" : "AppSettings.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_1",
+                "name" : "ConflictSheet.swift",
+                "path" : "ConflictSheet.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_2",
+                "name" : "ContentView.swift",
+                "path" : "ContentView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_3",
+                "name" : "DirectoryWatcher.swift",
+                "path" : "DirectoryWatcher.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_4",
+                "name" : "MacZillaApp.swift",
+                "path" : "MacZillaApp.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_5",
+                "name" : "Models.swift",
+                "path" : "Models.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_6",
+                "name" : "Notifier.swift",
+                "path" : "Notifier.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_7",
+                "name" : "PanelView.swift",
+                "path" : "PanelView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_8",
+                "name" : "SettingsView.swift",
+                "path" : "SettingsView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_9",
+                "name" : "SiteManagerSheet.swift",
+                "path" : "SiteManagerSheet.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_10",
+                "name" : "TransfersView.swift",
+                "path" : "TransfersView.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:maczilla::MAINGROUP::REF_4",
+            "name" : "/Users/avatec/MacZilla/Sources/MacZilla",
+            "path" : "/Users/avatec/MacZilla/Sources/MacZilla",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_0",
+                "name" : "BandwidthLimiter.swift",
+                "path" : "BandwidthLimiter.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_1",
+                "name" : "FTPProvider.swift",
+                "path" : "FTPProvider.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_2",
+                "name" : "FTPSession.swift",
+                "path" : "FTPSession.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_3",
+                "name" : "FTPSupport.swift",
+                "path" : "FTPSupport.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_4",
+                "name" : "FileProvider.swift",
+                "path" : "FileProvider.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_5",
+                "name" : "FileZillaImporter.swift",
+                "path" : "FileZillaImporter.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_6",
+                "name" : "HostKeyVerifier.swift",
+                "path" : "HostKeyVerifier.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_7",
+                "name" : "LocalProvider.swift",
+                "path" : "LocalProvider.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_8",
+                "name" : "ProviderRegistry.swift",
+                "path" : "ProviderRegistry.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_9",
+                "name" : "QuickConnect.swift",
+                "path" : "QuickConnect.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_10",
+                "name" : "QuickSearch.swift",
+                "path" : "QuickSearch.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_11",
+                "name" : "RemoteEditor.swift",
+                "path" : "RemoteEditor.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_12",
+                "name" : "SFTPConnection.swift",
+                "path" : "SFTPConnection.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_13",
+                "name" : "SFTPProvider.swift",
+                "path" : "SFTPProvider.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_14",
+                "name" : "SiteTree.swift",
+                "path" : "SiteTree.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_15",
+                "name" : "Sites.swift",
+                "path" : "Sites.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_16",
+                "name" : "Transfer.swift",
+                "path" : "Transfer.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_17",
+                "name" : "TransferQueue.swift",
+                "path" : "TransferQueue.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_18",
+                "name" : "WebDAVProvider.swift",
+                "path" : "WebDAVProvider.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:maczilla::MAINGROUP::REF_5",
+            "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore",
+            "path" : "/Users/avatec/MacZilla/Sources/MacZillaCore",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          },
+          {
+            "children" : [
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_0",
+                "name" : "BandwidthLimiter.swift",
+                "path" : "BandwidthLimiter.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_1",
+                "name" : "FTPProvider.swift",
+                "path" : "FTPProvider.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_2",
+                "name" : "FTPSession.swift",
+                "path" : "FTPSession.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_3",
+                "name" : "FTPSupport.swift",
+                "path" : "FTPSupport.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_4",
+                "name" : "FileProvider.swift",
+                "path" : "FileProvider.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_5",
+                "name" : "FileZillaImporter.swift",
+                "path" : "FileZillaImporter.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_6",
+                "name" : "HostKeyVerifier.swift",
+                "path" : "HostKeyVerifier.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_7",
+                "name" : "LocalProvider.swift",
+                "path" : "LocalProvider.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_8",
+                "name" : "ProviderRegistry.swift",
+                "path" : "ProviderRegistry.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_9",
+                "name" : "QuickConnect.swift",
+                "path" : "QuickConnect.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_10",
+                "name" : "QuickSearch.swift",
+                "path" : "QuickSearch.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_11",
+                "name" : "RemoteEditor.swift",
+                "path" : "RemoteEditor.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_12",
+                "name" : "SFTPConnection.swift",
+                "path" : "SFTPConnection.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_13",
+                "name" : "SFTPProvider.swift",
+                "path" : "SFTPProvider.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_14",
+                "name" : "SiteTree.swift",
+                "path" : "SiteTree.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_15",
+                "name" : "Sites.swift",
+                "path" : "Sites.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_16",
+                "name" : "Transfer.swift",
+                "path" : "Transfer.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_17",
+                "name" : "TransferQueue.swift",
+                "path" : "TransferQueue.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              },
+              {
+                "fileType" : "sourcecode.swift",
+                "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_18",
+                "name" : "WebDAVProvider.swift",
+                "path" : "WebDAVProvider.swift",
+                "sourceTree" : "<group>",
+                "type" : "file"
+              }
+            ],
+            "guid" : "PACKAGE:maczilla::MAINGROUP::REF_6",
+            "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore",
+            "path" : "/Users/avatec/MacZilla/Sources/MacZillaCore",
+            "sourceTree" : "<absolute>",
+            "type" : "group"
+          }
+        ],
+        "guid" : "PACKAGE:maczilla::MAINGROUP",
+        "name" : "",
+        "path" : "",
+        "sourceTree" : "<group>",
+        "type" : "group"
+      },
+      "guid" : "PACKAGE:maczilla",
+      "path" : "/Users/avatec/MacZilla/Package.swift",
+      "projectDirectory" : "/Users/avatec/MacZilla",
+      "projectIsPackage" : "true",
+      "projectName" : "MacZilla",
+      "targets" : [
+        "29e200da2f1294ac884265e364a8c616171f17458740bb77b64aab13c9c3bf7d",
+        "0410efc91ef3cef218926363a1bc1b77ac66396cce6c18bba744a975e8c2e973",
+        "def041256e6493d52bd9e9e465dea1387dfa70b6f773ad1efe4a0ab05dd61708",
+        "421e52098ddc0bbf34dfaca67dfa866740b2a22b004da687362a48deaa928bfb",
+        "ae46ee51cb1b19a99a8480d64418a5a9ba19871c4debdef5b8dac3d2826025dc",
+        "041ed4d6b6aa02a37e03cdc6c910069dc02b121f429564e83b8f2fcd8a5fe8f7",
+        "a1b80deba8934521811857c199dab5aaadf55cf6b62cd712c3a8c3d653d89f2b",
+        "9f32c443dfd7e0818c27f031eaccd54c738203bc8349297834dea90bcc785498",
+        "389c57b7dd7fa9323d3fed10c733ea39bc21304fabe7c952fb18dd6cb7bacc25"
+      ]
+    },
+    "signature" : "8b73f60fc6e5fcbab17118fda0c652461c95b3380a803949d6543c9d02455c74",
+    "type" : "project"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "APPLE_TEST_BUNDLE_RPATH" : "$(APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_$(SHALLOW_BUNDLE:default=NO))",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_NO" : "@loader_path/../../..",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_YES" : "@loader_path/../..",
+            "BUILD_SERVER_PROTOCOL_TARGET_TAGS" : [
+              "$(inherited)",
+              "test"
+            ],
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
+            "GENERATE_INFOPLIST_FILE" : "YES",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "INDEX_ENABLE_DATA_STORE" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(RPATH_ORIGIN)/Frameworks",
+              "$(RPATH_ORIGIN)/../Frameworks",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=driverkit]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios-maccatalyst]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios;ios-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=macos]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=tvos;tvos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=watchos;watchos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=xros;xros-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZillaCoreTests",
+            "PRODUCT_MODULE_NAME" : "MacZillaCoreTests",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "SWIFT_VERSION" : "6",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCoreTests.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCoreTests.symbolgraphs",
+            "TARGET_NAME" : "MacZillaCoreTests",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "APPLE_TEST_BUNDLE_RPATH" : "$(APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_$(SHALLOW_BUNDLE:default=NO))",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_NO" : "@loader_path/../../..",
+            "APPLE_TEST_BUNDLE_RPATH_SHALLOW_BUNDLE_YES" : "@loader_path/../..",
+            "BUILD_SERVER_PROTOCOL_TARGET_TAGS" : [
+              "$(inherited)",
+              "test"
+            ],
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
+            "GENERATE_INFOPLIST_FILE" : "YES",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "INDEX_ENABLE_DATA_STORE" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(RPATH_ORIGIN)/Frameworks",
+              "$(RPATH_ORIGIN)/../Frameworks",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=driverkit]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios-maccatalyst]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=ios;ios-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=macos]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=tvos;tvos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=watchos;watchos-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "LD_RUNPATH_SEARCH_PATHS[__platform_filter=xros;xros-simulator]" : [
+              "$(APPLE_TEST_BUNDLE_RPATH)",
+              "$(inherited)"
+            ],
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZillaCoreTests",
+            "PRODUCT_MODULE_NAME" : "MacZillaCoreTests",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "SWIFT_VERSION" : "6",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCoreTests.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCoreTests.symbolgraphs",
+            "TARGET_NAME" : "MacZillaCoreTests",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_0",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_1",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_2",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_3",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_4",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::4",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_5",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::5",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_6",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::6",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_7",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::7",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_8",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::8",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_9",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::9",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_10",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::10",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_2::REF_11",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0::11",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:MacZillaCore"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.frameworks"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:MacZillaCore",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests",
+      "name" : "MacZillaCoreTests-product",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.bundle.unit-test",
+      "type" : "standard"
+    },
+    "signature" : "29e200da2f1294ac884265e364a8c616171f17458740bb77b64aab13c9c3bf7d",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(inherited)",
+              "$(RPATH_ORIGIN)"
+            ],
+            "LINKER_DRIVER" : "swiftc",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZillaCoreTests-test-runner",
+            "PRODUCT_MODULE_NAME" : "MacZillaCoreTests_test_runner",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_VERSION" : "5.0",
+            "TARGET_NAME" : "MacZillaCoreTests-test-runner",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-TARGET:MacZillaCoreTests_test_runner::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "17.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "17.0",
+            "LD_RUNPATH_SEARCH_PATHS" : [
+              "$(inherited)",
+              "$(RPATH_ORIGIN)"
+            ],
+            "LINKER_DRIVER" : "swiftc",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZillaCoreTests-test-runner",
+            "PRODUCT_MODULE_NAME" : "MacZillaCoreTests_test_runner",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "NO",
+            "SWIFT_VERSION" : "5.0",
+            "TARGET_NAME" : "MacZillaCoreTests-test-runner",
+            "TVOS_DEPLOYMENT_TARGET" : "17.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "26.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-TARGET:MacZillaCoreTests_test_runner::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+
+          ],
+          "guid" : "PACKAGE-TARGET:MacZillaCoreTests_test_runner::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-TARGET:MacZillaCoreTests_test_runner::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:MacZillaCoreTests_test_runner::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.frameworks"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-TARGET:MacZillaCoreTests_test_runner",
+      "name" : "MacZillaCoreTests-test-runner",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:MacZillaCoreTests_test_runner",
+        "name" : "MacZillaCoreTests-test-runner",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.tool.swiftpm-test-runner",
+      "type" : "standard"
+    },
+    "signature" : "0410efc91ef3cef218926363a1bc1b77ac66396cce6c18bba744a975e8c2e973",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "$(OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_$(ENABLE_LIBFUZZER))"
+            ],
+            "OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_YES" : [
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "MacZilla_main"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZilla",
+            "PRODUCT_MODULE_NAME" : "MacZilla",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_INSTALL_MODULE" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "SWIFT_VERSION" : "6",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZilla.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZilla.symbolgraphs",
+            "TARGET_NAME" : "MacZilla",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "DRIVERKIT_DEPLOYMENT_TARGET" : "21.0",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "IPHONEOS_DEPLOYMENT_TARGET" : "15.0",
+            "IPHONEOS_DEPLOYMENT_TARGET[__platform_filter=ios-maccatalyst]" : "15.0",
+            "MACOSX_DEPLOYMENT_TARGET" : "14.0",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "$(OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_$(ENABLE_LIBFUZZER))"
+            ],
+            "OTHER_SWIFT_FLAGS_ENABLE_LIBFUZZER_YES" : [
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "MacZilla_main"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZilla",
+            "PRODUCT_MODULE_NAME" : "MacZilla",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_INSTALL_MODULE" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "SWIFT_VERSION" : "6",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZilla.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZilla.symbolgraphs",
+            "TARGET_NAME" : "MacZilla",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "TVOS_DEPLOYMENT_TARGET" : "15.0",
+            "WATCHOS_DEPLOYMENT_TARGET" : "9.0",
+            "XROS_DEPLOYMENT_TARGET" : "1.0"
+          },
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_0",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_1",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_2",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_3",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_4",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::4",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_5",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::5",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_6",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::6",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_7",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::7",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_8",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::8",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_9",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::9",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_3::REF_10",
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0::10",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        },
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_1::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:MacZillaCore"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.frameworks"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:MacZillaCore",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla",
+      "name" : "MacZilla-product",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.tool",
+      "type" : "standard"
+    },
+    "signature" : "def041256e6493d52bd9e9e465dea1387dfa70b6f773ad1efe4a0ab05dd61708",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "PRODUCT_NAME" : "MacZillaCore",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "TARGET_NAME" : "MacZillaCore-product",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "USES_SWIFTPM_UNSAFE_FLAGS" : "NO"
+          },
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "PRODUCT_NAME" : "MacZillaCore",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "TARGET_NAME" : "MacZillaCore-product",
+            "TARGET_TEMP_DIR_SUFFIX" : "-p",
+            "USES_SWIFTPM_UNSAFE_FLAGS" : "NO"
+          },
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:MacZillaCore"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.frameworks"
+        },
+        {
+          "buildFiles" : [
+
+          ],
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:MacZillaCore",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "dynamicTargetVariantGuid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore--667BD0340C41C75E-dynamic",
+      "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore",
+      "name" : "MacZillaCore-product",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.library.static",
+      "type" : "standard"
+    },
+    "signature" : "421e52098ddc0bbf34dfaca67dfa866740b2a22b004da687362a48deaa928bfb",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "MODULEMAP_FILE_CONTENTS" : "module MacZilla {\nheader \"MacZilla-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/MacZilla.modulemap",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "MacZilla_main"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZilla",
+            "PRODUCT_MODULE_NAME" : "MacZilla",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "MacZilla-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "SWIFT_VERSION" : "6",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZilla.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "MacZilla",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZilla.symbolgraphs",
+            "TARGET_BUILD_DIR" : "$(TARGET_BUILD_DIR)/ExecutableModules",
+            "TARGET_NAME" : "MacZilla--41C23113D5FA70EB-testable",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "LIBRARY_SEARCH_PATHS[__platform_filter=windows-msvc]" : [
+                "$(inherited)",
+                "$(TARGET_BUILD_DIR)/ExecutableModules"
+              ],
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/MacZilla.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_EMBED_IN_CODE_ACCESSORS" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "GENERATE_RESOURCE_ACCESSORS" : "YES",
+            "MODULEMAP_FILE_CONTENTS" : "module MacZilla {\nheader \"MacZilla-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/MacZilla.modulemap",
+            "OTHER_SWIFT_FLAGS" : [
+              "$(inherited)",
+              "-Xfrontend",
+              "-entry-point-function-name",
+              "-Xfrontend",
+              "MacZilla_main"
+            ],
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZilla",
+            "PRODUCT_MODULE_NAME" : "MacZilla",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "MacZilla-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "SWIFT_VERSION" : "6",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZilla.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "MacZilla",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZilla.symbolgraphs",
+            "TARGET_BUILD_DIR" : "$(TARGET_BUILD_DIR)/ExecutableModules",
+            "TARGET_NAME" : "MacZilla--41C23113D5FA70EB-testable",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "LIBRARY_SEARCH_PATHS[__platform_filter=windows-msvc]" : [
+                "$(inherited)",
+                "$(TARGET_BUILD_DIR)/ExecutableModules"
+              ],
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/MacZilla.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_0",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_1",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_2",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_3",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_4",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::4",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_5",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::5",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_6",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::6",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_7",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::7",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_8",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::8",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_9",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::9",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_4::REF_10",
+              "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0::10",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:MacZillaCore",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable",
+      "name" : "MacZilla",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:MacZilla--41C23113D5FA70EB-testable",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "org.swift.product-type.common.object",
+      "type" : "standard"
+    },
+    "signature" : "041ed4d6b6aa02a37e03cdc6c910069dc02b121f429564e83b8f2fcd8a5fe8f7",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "MODULEMAP_FILE_CONTENTS" : "module MacZillaCore {\nheader \"MacZillaCore-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/MacZillaCore.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZillaCore",
+            "PRODUCT_MODULE_NAME" : "MacZillaCore",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE"
+            ],
+            "SWIFT_DISABLE_COMPILATION_FOR_STATIC_LINKING_WHEN_ANY_TARGET_IS_PROMOTED_TO_DYNAMIC[__platform_filter=windows-msvc]" : [
+              "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "MacZillaCore-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "SWIFT_VERSION" : "6",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCore.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "MacZillaCore",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCore.symbolgraphs",
+            "TARGET_NAME" : "MacZillaCore",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/MacZillaCore.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "GENERATE_PRELINK_OBJECT_FILE" : "NO",
+            "MODULEMAP_FILE_CONTENTS" : "module MacZillaCore {\nheader \"MacZillaCore-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/MacZillaCore.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZillaCore",
+            "PRODUCT_MODULE_NAME" : "MacZillaCore",
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "STRIP_INSTALLED_PRODUCT" : "NO",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE"
+            ],
+            "SWIFT_DISABLE_COMPILATION_FOR_STATIC_LINKING_WHEN_ANY_TARGET_IS_PROMOTED_TO_DYNAMIC[__platform_filter=windows-msvc]" : [
+              "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "MacZillaCore-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "SWIFT_VERSION" : "6",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCore.symbolgraphs",
+            "TAPI_DYLIB_INSTALL_NAME" : "MacZillaCore",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCore.symbolgraphs",
+            "TARGET_NAME" : "MacZillaCore",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/MacZillaCore.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_0",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_1",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_2",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_3",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_4",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::4",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_5",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::5",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_6",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::6",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_7",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::7",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_8",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::8",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_9",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::9",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_10",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::10",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_11",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::11",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_12",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::12",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_13",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::13",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_14",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::14",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_15",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::15",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_16",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::16",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_17",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::17",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_5::REF_18",
+              "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0::18",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:MacZillaCore::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+
+      ],
+      "dynamicTargetVariantGuid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic",
+      "guid" : "PACKAGE-TARGET:MacZillaCore",
+      "name" : "MacZillaCore",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:MacZillaCore",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "org.swift.product-type.library.static",
+      "type" : "standard"
+    },
+    "signature" : "a1b80deba8934521811857c199dab5aaadf55cf6b62cd712c3a8c3d653d89f2b",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "PACKAGE-PRODUCT:maczilla-MacZillaPackageTests.MacZillaPackageTests::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "PACKAGE-PRODUCT:maczilla-MacZillaPackageTests.MacZillaPackageTests::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:MacZillaCoreTests_test_runner",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:maczilla-MacZillaPackageTests.MacZillaPackageTests",
+      "name" : "MacZillaPackageTests-product",
+      "type" : "aggregate"
+    },
+    "signature" : "389c57b7dd7fa9323d3fed10c733ea39bc21304fabe7c952fb18dd6cb7bacc25",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZillaCore",
+            "PRODUCT_MODULE_NAME" : "MacZillaCore",
+            "PRODUCT_NAME" : "MacZillaCore",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "TARGET_NAME" : "MacZillaCore-product",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t",
+            "USES_SWIFTPM_UNSAFE_FLAGS" : "NO"
+          },
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore--667BD0340C41C75E-dynamic::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZillaCore",
+            "PRODUCT_MODULE_NAME" : "MacZillaCore",
+            "PRODUCT_NAME" : "MacZillaCore",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "TARGET_NAME" : "MacZillaCore-product",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t",
+            "USES_SWIFTPM_UNSAFE_FLAGS" : "NO"
+          },
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore--667BD0340C41C75E-dynamic::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "targetReference" : "PACKAGE-TARGET:MacZillaCore"
+            }
+          ],
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.frameworks"
+        },
+        {
+          "buildFiles" : [
+
+          ],
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_1",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-TARGET:MacZillaCore",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore--667BD0340C41C75E-dynamic",
+      "name" : "MacZillaCoredynamic-product",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore--667BD0340C41C75E-dynamic",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.library.dynamic",
+      "type" : "standard"
+    },
+    "signature" : "ae46ee51cb1b19a99a8480d64418a5a9ba19871c4debdef5b8dac3d2826025dc",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "approvedByUser" : "true",
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "MODULEMAP_FILE_CONTENTS" : "module MacZillaCore {\nheader \"MacZillaCore-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/MacZillaCore.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZillaCore",
+            "PRODUCT_MODULE_NAME" : "MacZillaCore",
+            "PRODUCT_NAME" : "MacZillaCore",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "MacZillaCore-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "SWIFT_VERSION" : "6",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCore.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCore.symbolgraphs",
+            "TARGET_NAME" : "MacZillaCore",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/MacZillaCore.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "DEFINES_MODULE" : "YES",
+            "DOCC_EXTRACT_PROJECT_HEADERS_DOCUMENTATION" : "YES",
+            "EXECUTABLE_PREFIX" : "lib",
+            "EXECUTABLE_PREFIX[__platform_filter=windows-msvc]" : "",
+            "MODULEMAP_FILE_CONTENTS" : "module MacZillaCore {\nheader \"MacZillaCore-Swift.h\"\nexport *\n}",
+            "MODULEMAP_PATH" : "$(GENERATED_MODULEMAP_DIR)/MacZillaCore.modulemap",
+            "PACKAGE_RESOURCE_TARGET_KIND" : "regular",
+            "PRODUCT_BUNDLE_IDENTIFIER" : "maczilla.MacZillaCore",
+            "PRODUCT_MODULE_NAME" : "MacZillaCore",
+            "PRODUCT_NAME" : "MacZillaCore",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SUPPORTS_TEXT_BASED_API" : "NO",
+            "SWIFT_ACTIVE_COMPILATION_CONDITIONS" : [
+              "$(inherited)",
+              "SWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE"
+            ],
+            "SWIFT_DISABLE_PARSE_AS_LIBRARY" : "NO",
+            "SWIFT_ENABLE_BARE_SLASH_REGEX" : "NO",
+            "SWIFT_LIBRARIES_ONLY" : "YES",
+            "SWIFT_OBJC_INTERFACE_HEADER_DIR" : "$(GENERATED_MODULEMAP_DIR)",
+            "SWIFT_OBJC_INTERFACE_HEADER_NAME" : "MacZillaCore-Swift.h",
+            "SWIFT_PACKAGE_NAME" : "maczilla",
+            "SWIFT_VERSION" : "6",
+            "SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCore.symbolgraphs",
+            "TAPI_EXTRACT_API_OUTPUT_DIR" : "$(TARGET_BUILD_DIR)/$(CURRENT_ARCH)/MacZillaCore.symbolgraphs",
+            "TARGET_NAME" : "MacZillaCore",
+            "TARGET_TEMP_DIR_SUFFIX" : "-t"
+          },
+          "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+              "FRAMEWORK_SEARCH_PATHS" : [
+                "$(BUILT_PRODUCTS_DIR)/PackageFrameworks",
+                "$(inherited)"
+              ],
+              "LD_RUNPATH_SEARCH_PATHS" : [
+                "$(RPATH_ORIGIN)",
+                "$(inherited)"
+              ],
+              "LD_WARN_DUPLICATE_LIBRARIES" : "NO",
+              "OTHER_CFLAGS" : [
+                "-fmodule-map-file=$(GENERATED_MODULEMAP_DIR)/MacZillaCore.modulemap",
+                "$(inherited)"
+              ]
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+        {
+          "buildFiles" : [
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_0",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::0",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_1",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::1",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_2",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::2",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_3",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::3",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_4",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::4",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_5",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::5",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_6",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::6",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_7",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::7",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_8",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::8",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_9",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::9",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_10",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::10",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_11",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::11",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_12",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::12",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_13",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::13",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_14",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::14",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_15",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::15",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_16",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::16",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_17",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::17",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            },
+            {
+              "codeSignOnCopy" : "false",
+              "fileReference" : "PACKAGE:maczilla::MAINGROUP::REF_6::REF_18",
+              "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0::18",
+              "platformFilters" : [
+
+              ],
+              "removeHeadersOnCopy" : "false"
+            }
+          ],
+          "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic::BUILDPHASE_0",
+          "type" : "com.apple.buildphase.sources"
+        }
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+
+      ],
+      "guid" : "PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic",
+      "name" : "MacZillaCore",
+      "productReference" : {
+        "guid" : "PRODUCTREF-PACKAGE-TARGET:MacZillaCore--667BD0340C41C75E-dynamic",
+        "name" : "$(EXECUTABLE_NAME)",
+        "type" : "file"
+      },
+      "productTypeIdentifier" : "com.apple.product-type.library.dynamic",
+      "type" : "standard"
+    },
+    "signature" : "9f32c443dfd7e0818c27f031eaccd54c738203bc8349297834dea90bcc785498",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "YES",
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ]
+          },
+          "guid" : "AGGREGATE::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+            "PRODUCT_NAME" : "$(TARGET_NAME)",
+            "SDKROOT" : "auto",
+            "SDK_VARIANT" : "auto",
+            "SKIP_INSTALL" : "YES",
+            "SUPPORTED_PLATFORMS" : [
+              "$(AVAILABLE_PLATFORMS)"
+            ]
+          },
+          "guid" : "AGGREGATE::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "defaultConfigurationName" : "Release",
+      "developmentRegion" : "en",
+      "groupTree" : {
+        "children" : [
+
+        ],
+        "guid" : "AGGREGATE::MAINGROUP",
+        "name" : "",
+        "path" : "",
+        "sourceTree" : "<group>",
+        "type" : "group"
+      },
+      "guid" : "AGGREGATE",
+      "path" : "/Users/avatec/MacZilla/Package.swift",
+      "projectDirectory" : "/Users/avatec/MacZilla",
+      "projectIsPackage" : "true",
+      "projectName" : "Aggregate",
+      "targets" : [
+        "9f830f0e6e504dd63539a48f1e9748782e0560b46e6e71e47ae010609e48640d",
+        "c924dd5c86c328a390c3f6fb8fbd906f490243b09f592c66ac205236ed71b60c"
+      ]
+    },
+    "signature" : "9ad5f151a7803e597ca198066a9480e474da8bd8c8e3a73580bc5f370b36d932",
+    "type" : "project"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-INCLUDING-TESTS::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-INCLUDING-TESTS::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCoreTests.MacZillaCoreTests",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:MacZillaCoreTests_test_runner",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:MacZillaCore",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "ALL-INCLUDING-TESTS",
+      "name" : "AllIncludingTests",
+      "type" : "aggregate"
+    },
+    "signature" : "9f830f0e6e504dd63539a48f1e9748782e0560b46e6e71e47ae010609e48640d",
+    "type" : "target"
+  },
+  {
+    "contents" : {
+      "buildConfigurations" : [
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-EXCLUDING-TESTS::BUILDCONFIG_0",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Debug"
+        },
+        {
+          "buildSettings" : {
+
+          },
+          "guid" : "ALL-EXCLUDING-TESTS::BUILDCONFIG_1",
+          "impartedBuildProperties" : {
+            "buildSettings" : {
+
+            }
+          },
+          "name" : "Release"
+        }
+      ],
+      "buildPhases" : [
+
+      ],
+      "buildRules" : [
+
+      ],
+      "customTasks" : [
+
+      ],
+      "dependencies" : [
+        {
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZilla.MacZilla",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-PRODUCT:maczilla_MacZillaCore.MacZillaCore",
+          "platformFilters" : [
+
+          ]
+        },
+        {
+          "guid" : "PACKAGE-TARGET:MacZillaCore",
+          "platformFilters" : [
+
+          ]
+        }
+      ],
+      "guid" : "ALL-EXCLUDING-TESTS",
+      "name" : "AllExcludingTests",
+      "type" : "aggregate"
+    },
+    "signature" : "c924dd5c86c328a390c3f6fb8fbd906f490243b09f592c66ac205236ed71b60c",
+    "type" : "target"
+  }
+]

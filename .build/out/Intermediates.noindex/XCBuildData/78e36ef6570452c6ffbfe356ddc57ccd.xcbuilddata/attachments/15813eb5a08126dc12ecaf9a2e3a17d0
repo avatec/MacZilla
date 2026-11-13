@@ -1,0 +1,199 @@
+{
+  "" : {
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/MacZillaCore-primary.dia",
+    "emit-module-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/MacZillaCore-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/MacZillaCore-primary-emit-module.dia",
+    "pch" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/MacZillaCore-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/MacZillaCore-primary.swiftdeps"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/BandwidthLimiter.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/BandwidthLimiter.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/BandwidthLimiter.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/BandwidthLimiter.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/BandwidthLimiter.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/BandwidthLimiter.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/BandwidthLimiter.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/BandwidthLimiter.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/BandwidthLimiter~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPProvider.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPProvider.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPProvider.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPProvider.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPProvider.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPProvider.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPProvider.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPProvider.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPProvider~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSession.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSession.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSession.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSession.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSession.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSession.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSession.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSession.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSession~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSupport.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FileProvider.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FileZillaImporter.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/HostKeyVerifier.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/HostKeyVerifier.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/HostKeyVerifier.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/HostKeyVerifier.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/HostKeyVerifier.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/HostKeyVerifier.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/HostKeyVerifier.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/HostKeyVerifier.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/HostKeyVerifier~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/LocalProvider.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/LocalProvider.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/LocalProvider.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/LocalProvider.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/LocalProvider.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/LocalProvider.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/LocalProvider.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/LocalProvider.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/LocalProvider~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/ProviderRegistry.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/ProviderRegistry.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/ProviderRegistry.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/ProviderRegistry.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/ProviderRegistry.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/ProviderRegistry.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/ProviderRegistry.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/ProviderRegistry.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/ProviderRegistry~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickConnect.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickConnect.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickConnect.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickConnect.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickConnect.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickConnect.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickConnect.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickConnect.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickConnect~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickSearch.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickSearch.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickSearch.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickSearch.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickSearch.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickSearch.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickSearch.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickSearch.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/QuickSearch~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/RemoteEditor.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/RemoteEditor.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/RemoteEditor.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/RemoteEditor.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/RemoteEditor.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/RemoteEditor.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/RemoteEditor.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/RemoteEditor.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/RemoteEditor~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPConnection.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPConnection.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPConnection.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPConnection.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPConnection.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPConnection.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPConnection.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPConnection.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPConnection~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPProvider.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPProvider.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPProvider.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPProvider.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPProvider.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPProvider.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPProvider.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPProvider.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SFTPProvider~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/SiteTree.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SiteTree.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SiteTree.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SiteTree.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SiteTree.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SiteTree.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SiteTree.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SiteTree.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/SiteTree~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/Sites.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Sites.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Sites.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Sites.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Sites.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Sites.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Sites.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Sites.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Sites~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/Transfer.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Transfer.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Transfer.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Transfer.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Transfer.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Transfer.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Transfer.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Transfer.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/Transfer~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/TransferQueue.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/TransferQueue.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/TransferQueue.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/TransferQueue.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/TransferQueue.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/TransferQueue.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/TransferQueue.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/TransferQueue.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/TransferQueue~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/WebDAVProvider.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/WebDAVProvider.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/WebDAVProvider.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/WebDAVProvider.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/WebDAVProvider.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/WebDAVProvider.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/WebDAVProvider.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/WebDAVProvider.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/WebDAVProvider~partial.swiftmodule"
+  }
+}

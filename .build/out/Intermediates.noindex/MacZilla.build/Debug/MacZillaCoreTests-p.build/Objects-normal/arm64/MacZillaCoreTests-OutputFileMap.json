@@ -1,0 +1,139 @@
+{
+  "" : {
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/MacZillaCoreTests-primary.dia",
+    "emit-module-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/MacZillaCoreTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/MacZillaCoreTests-primary-emit-module.dia",
+    "pch" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/MacZillaCoreTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/MacZillaCoreTests-primary.swiftdeps"
+  },
+  "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/DerivedSources/test_entry_point.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/test_entry_point.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/test_entry_point.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/test_entry_point.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/test_entry_point.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/test_entry_point.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/test_entry_point.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/test_entry_point~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/ConflictTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/ConflictTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/ConflictTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/ConflictTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/ConflictTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/ConflictTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/ConflictTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/ConflictTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/ConflictTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/CoreTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/CoreTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/CoreTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/CoreTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/CoreTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/CoreTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/CoreTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/CoreTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/CoreTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPSTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPSTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPSTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPSTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPSTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPSTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPSTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPSTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPSTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/FTPTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/HostKeyTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/HostKeyTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/HostKeyTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/HostKeyTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/HostKeyTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/HostKeyTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/HostKeyTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/HostKeyTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/HostKeyTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QueueTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QueueTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QueueTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QueueTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QueueTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QueueTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QueueTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QueueTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QueueTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QuickSearchTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QuickSearchTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QuickSearchTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QuickSearchTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QuickSearchTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QuickSearchTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QuickSearchTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QuickSearchTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/QuickSearchTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/RemoteEditorTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/RemoteEditorTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/RemoteEditorTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/RemoteEditorTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/RemoteEditorTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/RemoteEditorTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/RemoteEditorTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/RemoteEditorTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/RemoteEditorTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SFTPTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SFTPTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SFTPTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SFTPTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SFTPTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SFTPTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SFTPTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SFTPTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SFTPTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteManagerTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteManagerTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteManagerTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteManagerTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteManagerTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteManagerTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteManagerTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteManagerTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteManagerTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/SiteTests~partial.swiftmodule"
+  },
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/WebDAVTests.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/WebDAVTests.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/WebDAVTests.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/WebDAVTests.dia",
+    "index-unit-output-path" : "/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/WebDAVTests.o",
+    "llvm-bc" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/WebDAVTests.bc",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/WebDAVTests.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/WebDAVTests.swiftdeps",
+    "swiftmodule" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCoreTests-p.build/Objects-normal/arm64/WebDAVTests~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSupport.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.dia",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FTPSupport.swiftdeps"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FileProvider.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.dia",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileProvider.swiftdeps"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FileZillaImporter.swift" : {
+    "const-values" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.swiftconstvalues",
+    "dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.d",
+    "diagnostics" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.dia",
+    "object" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.o",
+    "swift-dependencies" : "/Users/avatec/MacZilla/.build/out/Intermediates.noindex/MacZilla.build/Debug/MacZillaCore-t.build/Objects-normal/arm64/FileZillaImporter.swiftdeps"
+  }
+}

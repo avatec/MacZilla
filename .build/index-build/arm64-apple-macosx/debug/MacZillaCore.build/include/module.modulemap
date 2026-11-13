@@ -1,0 +1,3 @@
+module MacZillaCore {
+    header "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/include/MacZillaCore-Swift.h"
+}

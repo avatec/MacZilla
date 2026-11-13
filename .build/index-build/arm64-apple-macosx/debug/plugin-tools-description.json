@@ -1,0 +1,1206 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.xctest/Contents/MacOS/MacZillaPackageTests",
+      "coverageBinaryPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.xctest/Contents/MacOS/MacZillaPackageTests",
+      "packagePath" : "/Users/avatec/MacZilla",
+      "productName" : "MacZillaPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.MacZilla-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/sources",
+      "importPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/AppSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/ConflictSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/DirectoryWatcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/MacZillaApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/Notifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/PanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/SiteManagerSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/TransfersView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "MacZilla",
+      "moduleOutputPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZilla.swiftmodule",
+      "objects" : [
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/AppSettings.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ConflictSheet.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/ContentView.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/DirectoryWatcher.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/MacZillaApp.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Models.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/Notifier.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/PanelView.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SettingsView.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/SiteManagerSheet.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/TransfersView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "MacZilla_main",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "maczilla"
+      ],
+      "outputFileMapPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZilla.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/avatec/MacZilla/Sources/MacZilla/AppSettings.swift",
+        "/Users/avatec/MacZilla/Sources/MacZilla/ConflictSheet.swift",
+        "/Users/avatec/MacZilla/Sources/MacZilla/ContentView.swift",
+        "/Users/avatec/MacZilla/Sources/MacZilla/DirectoryWatcher.swift",
+        "/Users/avatec/MacZilla/Sources/MacZilla/MacZillaApp.swift",
+        "/Users/avatec/MacZilla/Sources/MacZilla/Models.swift",
+        "/Users/avatec/MacZilla/Sources/MacZilla/Notifier.swift",
+        "/Users/avatec/MacZilla/Sources/MacZilla/PanelView.swift",
+        "/Users/avatec/MacZilla/Sources/MacZilla/SettingsView.swift",
+        "/Users/avatec/MacZilla/Sources/MacZilla/SiteManagerSheet.swift",
+        "/Users/avatec/MacZilla/Sources/MacZilla/TransfersView.swift"
+      ],
+      "tempsPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MacZillaCore-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/sources",
+      "importPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/BandwidthLimiter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSupport.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/FileProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/FileZillaImporter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/HostKeyVerifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/LocalProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/ProviderRegistry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickConnect.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickSearch.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/RemoteEditor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPConnection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/SiteTree.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/Sites.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/Transfer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/TransferQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/WebDAVProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MacZillaCore",
+      "moduleOutputPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCore.swiftmodule",
+      "objects" : [
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/BandwidthLimiter.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPProvider.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSession.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSupport.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileProvider.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileZillaImporter.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/HostKeyVerifier.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/LocalProvider.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/ProviderRegistry.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickConnect.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickSearch.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/RemoteEditor.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPConnection.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPProvider.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SiteTree.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Sites.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Transfer.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/TransferQueue.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/WebDAVProvider.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/include/MacZillaCore-Swift.h",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "maczilla"
+      ],
+      "outputFileMapPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCore.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/BandwidthLimiter.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPProvider.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSession.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSupport.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/FileProvider.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/FileZillaImporter.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/HostKeyVerifier.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/LocalProvider.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/ProviderRegistry.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickConnect.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickSearch.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/RemoteEditor.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPConnection.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPProvider.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/SiteTree.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/Sites.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/Transfer.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/TransferQueue.swift",
+        "/Users/avatec/MacZilla/Sources/MacZillaCore/WebDAVProvider.swift"
+      ],
+      "tempsPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MacZillaCoreTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/sources",
+      "importPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/ConflictTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/CoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPSTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/HostKeyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QueueTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QuickSearchTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/RemoteEditorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SFTPTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/WebDAVTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCore.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MacZillaCoreTests",
+      "moduleOutputPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCoreTests.swiftmodule",
+      "objects" : [
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/ConflictTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/CoreTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/FTPSTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/FTPTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/HostKeyTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/QueueTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/QuickSearchTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/RemoteEditorTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/SFTPTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/SiteManagerTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/SiteTests.swift.o",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/WebDAVTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-swift-version",
+        "6",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "maczilla"
+      ],
+      "outputFileMapPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCoreTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/ConflictTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/CoreTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPSTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/HostKeyTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QueueTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QuickSearchTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/RemoteEditorTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SFTPTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteManagerTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteTests.swift",
+        "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/WebDAVTests.swift"
+      ],
+      "tempsPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.MacZillaPackageTests-arm64-apple-macosx-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/sources",
+      "importPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCoreTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "MacZillaPackageTests",
+      "moduleOutputPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/include/MacZillaPackageTests-Swift.h",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "maczilla"
+      ],
+      "outputFileMapPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "MacZilla" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MacZilla",
+      "-package-name",
+      "maczilla",
+      "-c",
+      "/Users/avatec/MacZilla/Sources/MacZilla/AppSettings.swift",
+      "/Users/avatec/MacZilla/Sources/MacZilla/ConflictSheet.swift",
+      "/Users/avatec/MacZilla/Sources/MacZilla/ContentView.swift",
+      "/Users/avatec/MacZilla/Sources/MacZilla/DirectoryWatcher.swift",
+      "/Users/avatec/MacZilla/Sources/MacZilla/MacZillaApp.swift",
+      "/Users/avatec/MacZilla/Sources/MacZilla/Models.swift",
+      "/Users/avatec/MacZilla/Sources/MacZilla/Notifier.swift",
+      "/Users/avatec/MacZilla/Sources/MacZilla/PanelView.swift",
+      "/Users/avatec/MacZilla/Sources/MacZilla/SettingsView.swift",
+      "/Users/avatec/MacZilla/Sources/MacZilla/SiteManagerSheet.swift",
+      "/Users/avatec/MacZilla/Sources/MacZilla/TransfersView.swift",
+      "-I",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "MacZilla_main",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "maczilla",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MacZillaCore" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MacZillaCore",
+      "-package-name",
+      "maczilla",
+      "-c",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/BandwidthLimiter.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPProvider.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSession.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSupport.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/FileProvider.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/FileZillaImporter.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/HostKeyVerifier.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/LocalProvider.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/ProviderRegistry.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickConnect.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickSearch.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/RemoteEditor.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPConnection.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPProvider.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/SiteTree.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/Sites.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/Transfer.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/TransferQueue.swift",
+      "/Users/avatec/MacZilla/Sources/MacZillaCore/WebDAVProvider.swift",
+      "-I",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/include/MacZillaCore-Swift.h",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "maczilla",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MacZillaCoreTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MacZillaCoreTests",
+      "-package-name",
+      "maczilla",
+      "-c",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/ConflictTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/CoreTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPSTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/HostKeyTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QueueTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QuickSearchTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/RemoteEditorTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SFTPTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteManagerTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteTests.swift",
+      "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/WebDAVTests.swift",
+      "-I",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-swift-version",
+      "6",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "maczilla",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "MacZillaPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "MacZillaPackageTests",
+      "-package-name",
+      "maczilla",
+      "-c",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/include/MacZillaPackageTests-Swift.h",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "maczilla",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "MacZilla" : [
+      "MacZillaCore"
+    ],
+    "MacZillaCore" : [
+
+    ],
+    "MacZillaCoreTests" : [
+      "MacZillaCore"
+    ],
+    "MacZillaPackageTests" : [
+      "MacZillaCoreTests",
+      "MacZillaCore"
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : [
+      {
+
+      }
+    ]
+  },
+  "writeCommands" : {
+    "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/AppSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/ConflictSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/DirectoryWatcher.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/MacZillaApp.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/Notifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/PanelView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/SiteManagerSheet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZilla/TransfersView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/sources"
+    },
+    "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/BandwidthLimiter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSession.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSupport.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/FileProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/FileZillaImporter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/HostKeyVerifier.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/LocalProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/ProviderRegistry.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickConnect.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickSearch.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/RemoteEditor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPConnection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/SiteTree.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/Sites.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/Transfer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/TransferQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Sources/MacZillaCore/WebDAVProvider.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/sources"
+    },
+    "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/ConflictTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/CoreTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPSTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/HostKeyTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QueueTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QuickSearchTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/RemoteEditorTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SFTPTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteManagerTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/WebDAVTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/sources"
+    },
+    "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/sources"
+    },
+    "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "": {
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/primary.swiftdeps"
+  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/BandwidthLimiter.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/BandwidthLimiter.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/BandwidthLimiter.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/BandwidthLimiter~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/BandwidthLimiter.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/BandwidthLimiter.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPProvider.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPProvider.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPProvider.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPProvider.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPProvider.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSession.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSession.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSession.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSession~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSession.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSession.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSupport.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSupport.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSupport.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSupport~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSupport.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FTPSupport.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FileProvider.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileProvider.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileProvider.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileProvider.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileProvider.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/FileZillaImporter.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileZillaImporter.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileZillaImporter.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileZillaImporter~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileZillaImporter.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/FileZillaImporter.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/HostKeyVerifier.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/HostKeyVerifier.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/HostKeyVerifier.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/HostKeyVerifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/HostKeyVerifier.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/HostKeyVerifier.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/LocalProvider.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/LocalProvider.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/LocalProvider.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/LocalProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/LocalProvider.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/LocalProvider.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/ProviderRegistry.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/ProviderRegistry.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/ProviderRegistry.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/ProviderRegistry~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/ProviderRegistry.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/ProviderRegistry.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickConnect.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickConnect.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickConnect.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickConnect~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickConnect.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickConnect.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/QuickSearch.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickSearch.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickSearch.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickSearch~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickSearch.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/QuickSearch.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/RemoteEditor.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/RemoteEditor.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/RemoteEditor.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/RemoteEditor~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/RemoteEditor.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/RemoteEditor.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPConnection.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPConnection.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPConnection.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPConnection~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPConnection.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPConnection.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPProvider.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPProvider.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPProvider.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPProvider.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SFTPProvider.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/SiteTree.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SiteTree.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SiteTree.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SiteTree~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SiteTree.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/SiteTree.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/Sites.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Sites.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Sites.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Sites~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Sites.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Sites.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/Transfer.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Transfer.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Transfer.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Transfer~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Transfer.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/Transfer.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/TransferQueue.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/TransferQueue.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/TransferQueue.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/TransferQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/TransferQueue.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/TransferQueue.dia"  },
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/WebDAVProvider.swift": {
+    "dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/WebDAVProvider.d",
+    "object": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/WebDAVProvider.swift.o",
+    "swiftmodule": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/WebDAVProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/WebDAVProvider.swiftdeps",
+    "diagnostics": "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/WebDAVProvider.dia"  }
+}

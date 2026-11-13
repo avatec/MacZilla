@@ -1,0 +1,110 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "MacZilla-arm64-apple-macosx-debug.module": ["<MacZilla-arm64-apple-macosx-debug.module>"]
+  "MacZillaCore-arm64-apple-macosx-debug.module": ["<MacZillaCore-arm64-apple-macosx-debug.module>"]
+  "MacZillaCoreTests-arm64-apple-macosx-debug.module": ["<MacZillaCoreTests-arm64-apple-macosx-debug.module>"]
+  "MacZillaPackageTests-arm64-apple-macosx-debug.module": ["<MacZillaPackageTests-arm64-apple-macosx-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<MacZilla-arm64-apple-macosx-debug.module>","<MacZillaCore-arm64-apple-macosx-debug.module>"]
+  "test": ["<MacZilla-arm64-apple-macosx-debug.module>","<MacZillaCore-arm64-apple-macosx-debug.module>","<MacZillaCoreTests-arm64-apple-macosx-debug.module>"]
+default: "main"
+nodes:
+  "/Users/avatec/MacZilla/Sources/MacZilla/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/avatec/MacZilla/Sources/MacZillaCore/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/avatec/MacZilla/Tests/MacZillaCoreTests/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/avatec/MacZilla/Sources/MacZilla/AppSettings.swift","/Users/avatec/MacZilla/Sources/MacZilla/ConflictSheet.swift","/Users/avatec/MacZilla/Sources/MacZilla/ContentView.swift","/Users/avatec/MacZilla/Sources/MacZilla/DirectoryWatcher.swift","/Users/avatec/MacZilla/Sources/MacZilla/MacZillaApp.swift","/Users/avatec/MacZilla/Sources/MacZilla/Models.swift","/Users/avatec/MacZilla/Sources/MacZilla/Notifier.swift","/Users/avatec/MacZilla/Sources/MacZilla/PanelView.swift","/Users/avatec/MacZilla/Sources/MacZilla/SettingsView.swift","/Users/avatec/MacZilla/Sources/MacZilla/SiteManagerSheet.swift","/Users/avatec/MacZilla/Sources/MacZilla/TransfersView.swift"]
+    outputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/sources"]
+    description: "Write auxiliary file /Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/sources"
+
+  "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/avatec/MacZilla/Sources/MacZillaCore/BandwidthLimiter.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/FTPProvider.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSession.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSupport.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/FileProvider.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/FileZillaImporter.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/HostKeyVerifier.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/LocalProvider.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/ProviderRegistry.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/QuickConnect.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/QuickSearch.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/RemoteEditor.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPConnection.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPProvider.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/SiteTree.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/Sites.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/Transfer.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/TransferQueue.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/WebDAVProvider.swift"]
+    outputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/sources"]
+    description: "Write auxiliary file /Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/sources"
+
+  "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/ConflictTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/CoreTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPSTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/HostKeyTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QueueTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QuickSearchTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/RemoteEditorTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SFTPTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteManagerTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/WebDAVTests.swift"]
+    outputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/sources"]
+    description: "Write auxiliary file /Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/sources"
+
+  "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.derived/runner.swift"]
+    outputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/sources"]
+    description: "Write auxiliary file /Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/sources"
+
+  "/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<MacZilla-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZilla.swiftmodule"]
+    outputs: ["<MacZilla-arm64-apple-macosx-debug.module>"]
+
+  "<MacZillaCore-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCore.swiftmodule"]
+    outputs: ["<MacZillaCore-arm64-apple-macosx-debug.module>"]
+
+  "<MacZillaCoreTests-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCoreTests.swiftmodule"]
+    outputs: ["<MacZillaCoreTests-arm64-apple-macosx-debug.module>"]
+
+  "<MacZillaPackageTests-arm64-apple-macosx-debug.module>":
+    tool: phony
+    inputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaPackageTests.swiftmodule"]
+    outputs: ["<MacZillaPackageTests-arm64-apple-macosx-debug.module>"]
+
+  "C.MacZilla-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/avatec/MacZilla/Sources/MacZilla/AppSettings.swift","/Users/avatec/MacZilla/Sources/MacZilla/ConflictSheet.swift","/Users/avatec/MacZilla/Sources/MacZilla/ContentView.swift","/Users/avatec/MacZilla/Sources/MacZilla/DirectoryWatcher.swift","/Users/avatec/MacZilla/Sources/MacZilla/MacZillaApp.swift","/Users/avatec/MacZilla/Sources/MacZilla/Models.swift","/Users/avatec/MacZilla/Sources/MacZilla/Notifier.swift","/Users/avatec/MacZilla/Sources/MacZilla/PanelView.swift","/Users/avatec/MacZilla/Sources/MacZilla/SettingsView.swift","/Users/avatec/MacZilla/Sources/MacZilla/SiteManagerSheet.swift","/Users/avatec/MacZilla/Sources/MacZilla/TransfersView.swift","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCore.swiftmodule","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/sources"]
+    outputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZilla.swiftmodule"]
+    description: "Compiling Swift Module 'MacZilla' (11 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","MacZilla","-emit-dependencies","-emit-module","-emit-module-path","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZilla.swiftmodule","-output-file-map","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/output-file-map.json","-incremental","@/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZilla.build/sources","-I","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","MacZilla_main","-swift-version","6","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","maczilla"]
+
+  "C.MacZillaCore-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/avatec/MacZilla/Sources/MacZillaCore/BandwidthLimiter.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/FTPProvider.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSession.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/FTPSupport.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/FileProvider.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/FileZillaImporter.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/HostKeyVerifier.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/LocalProvider.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/ProviderRegistry.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/QuickConnect.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/QuickSearch.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/RemoteEditor.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPConnection.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/SFTPProvider.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/SiteTree.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/Sites.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/Transfer.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/TransferQueue.swift","/Users/avatec/MacZilla/Sources/MacZillaCore/WebDAVProvider.swift","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/sources"]
+    outputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCore.swiftmodule"]
+    description: "Compiling Swift Module 'MacZillaCore' (19 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","MacZillaCore","-emit-dependencies","-emit-module","-emit-module-path","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCore.swiftmodule","-output-file-map","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/output-file-map.json","-parse-as-library","-incremental","@/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/sources","-I","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-j8","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCore.build/include/MacZillaCore-Swift.h","-swift-version","6","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","maczilla"]
+
+  "C.MacZillaCoreTests-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/avatec/MacZilla/Tests/MacZillaCoreTests/ConflictTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/CoreTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPSTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/FTPTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/HostKeyTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QueueTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/QuickSearchTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/RemoteEditorTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SFTPTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteManagerTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/SiteTests.swift","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/WebDAVTests.swift","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCore.swiftmodule","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/sources"]
+    outputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCoreTests.swiftmodule"]
+    description: "Compiling Swift Module 'MacZillaCoreTests' (12 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","MacZillaCoreTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCoreTests.swiftmodule","-output-file-map","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/output-file-map.json","-parse-as-library","-incremental","@/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaCoreTests.build/sources","-I","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j8","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-swift-version","6","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","maczilla"]
+
+  "C.MacZillaPackageTests-arm64-apple-macosx-debug.module":
+    tool: shell
+    inputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.derived/runner.swift","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaCoreTests.swiftmodule","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/sources"]
+    outputs: ["/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaPackageTests.swiftmodule"]
+    description: "Compiling Swift Module 'MacZillaPackageTests' (1 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","MacZillaPackageTests","-emit-dependencies","-emit-module","-emit-module-path","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules/MacZillaPackageTests.swiftmodule","-output-file-map","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/output-file-map.json","-parse-as-library","-incremental","@/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/sources","-I","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx14.0","-incremental","-enable-batch-mode","-serialize-diagnostics","-Onone","-enable-testing","-Xfrontend","-enable-cross-import-overlays","-j8","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE","-module-cache-path","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/avatec/MacZilla/.build/index-build/arm64-apple-macosx/debug/MacZillaPackageTests.build/include/MacZillaPackageTests-Swift.h","-Xfrontend","-experimental-lazy-typecheck","-Xfrontend","-experimental-skip-all-function-bodies","-Xfrontend","-experimental-allow-module-with-compiler-errors","-Xfrontend","-empty-abi-descriptor","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX27.2.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","maczilla"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/avatec/MacZilla/Sources/MacZilla/","/Users/avatec/MacZilla/Sources/MacZillaCore/","/Users/avatec/MacZilla/Tests/MacZillaCoreTests/","/Users/avatec/MacZilla/Package.swift","/Users/avatec/MacZilla/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+
