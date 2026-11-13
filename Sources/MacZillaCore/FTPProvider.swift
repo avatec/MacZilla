@@ -86,8 +86,15 @@ public final class FTPProvider: FileProvider, @unchecked Sendable {
         var s: FTPSession?
         do {
             if let cached = lock.withLock({ uploadControl }) {
-                s = cached
-            } else {
+                do {
+                    try await cached.checkConnection()
+                    s = cached
+                } catch {
+                    await cached.quit()
+                    lock.withLock { if uploadControl === cached { uploadControl = nil } }
+                }
+            }
+            if s == nil {
                 let connected = FTPSession(config: config)
                 try await connected.open()
                 lock.withLock { uploadControl = connected }

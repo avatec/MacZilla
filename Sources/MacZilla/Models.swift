@@ -336,16 +336,22 @@ final class AppState {
         let src = activePanel.provider, dst = otherPanel.provider, dstPath = otherPanel.path
         let items = activePanel.selectedItems
         let allowsOverwriteIfNewer = !move && src.id == "local" && dst.id != "local"
-        var destinationSnapshot: [String: FileItem]?
+        let destinationSnapshot: [String: FileItem]?
         if allowsOverwriteIfNewer, let listed = try? await dst.list(dstPath) {
             destinationSnapshot = Dictionary(listed.map { ($0.name, $0) }, uniquingKeysWith: { first, _ in first })
+        } else {
+            destinationSnapshot = nil
         }
         var allPolicy: ConflictPolicy?
         for (index, item) in items.enumerated() {
             let path = item.path
             var policy = ConflictPolicy.fail
-            let destinationExists = destinationSnapshot.map { $0[item.name] != nil }
-                ?? (await Transfer.exists(dst, PathUtil.join(dstPath, item.name)))
+            let destinationExists: Bool
+            if let destinationSnapshot {
+                destinationExists = destinationSnapshot[item.name] != nil
+            } else {
+                destinationExists = await Transfer.exists(dst, PathUtil.join(dstPath, item.name))
+            }
             if destinationExists, !(src.id == dst.id && dstPath == PathUtil.parent(path)) {
                 if let all = allPolicy {
                     policy = all
