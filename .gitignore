@@ -1,3 +1,9 @@
-/.vscode
-/plan.md
-/ukonczone.md
+.vscode
+build/
+.build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+.DS_Store
+plan.md
+ukonczone.md
